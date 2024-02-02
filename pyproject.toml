@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "flowio"
+version = "1.2.1"
+description = "FlowIO is a Python library for reading / writing Flow Cytometry Standard (FCS) files"
+authors = ["Scott White"]
+license = "BSD"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,3 +1,10 @@
+This fork uses poetry instead of setuptools, all else remains the same. 
+
+```bash
+poetry init
+poetry shell
+python run_tests.py
+```
 # FlowIO
 
 [![PyPI license](https://img.shields.io/pypi/l/flowio.svg?colorB=dodgerblue)](https://pypi.python.org/pypi/flowio/)
